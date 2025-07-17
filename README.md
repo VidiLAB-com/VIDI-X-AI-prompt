@@ -1,4 +1,5 @@
 # VIDI-X-AI-prompt
+
 Kompletan tekst AI promptanje za izradu igara na VIDI X mikroračunalu biti će dostupan na [Vidilab.com](https://vidilab.com) portalu.
 
 # Gemini 2.5 Pro
@@ -23,11 +24,14 @@ te povećali pauzu u glavnoj `void loop()` petlji za deset puta kako bi igra bil
 delay(160); // Ograničava na otprilike 60 FPS
 ```
 
-![Gemini25Pro.png](Gemini25Pro.png)
-*Potpis: Potpisivanje Geminija kao autora koda zaista je jedinstveno rješenje*
+<img width="605" height="821" alt="Gemini25Pro" src="https://github.com/user-attachments/assets/6686504a-7722-49ac-b8e2-eadac48367a2" />
 
-![VIDI-X-Podmornice-1.png](VIDI-X-Podmornice-1.png)
-*Potpis: Svi podaci (brzina, smjer, dubina, broj torpeda i neprijatelja) našli su se na ekranu. Impresivno!*
+*Potpisivanje Geminija kao autora koda zaista je jedinstveno rješenje*
+
+
+<img width="1536" height="1024" alt="VIDI-X-Podmornice-1" src="https://github.com/user-attachments/assets/20d3acf9-7b09-4107-ba4c-56704b93d955" />
+
+*Svi podaci (brzina, smjer, dubina, broj torpeda i neprijatelja) našli su se na ekranu. Impresivno!*
 
 ---
 
@@ -53,11 +57,14 @@ lcd.setRotation(0);
 
 Prompt: [Prompt rezultat na Gemini Flash](https://g.co/gemini/share/abf32ada1cde)
 
-![Gemini25Flash.png](Gemini25Flash.png)
-*Potpis: Kod je prebogat komentarima koji će nam olakšati snalaženje u budućim iteracijama s kodom. Pohvalno!*
+<img width="605" height="602" alt="Gemini25Flash" src="https://github.com/user-attachments/assets/d05aa609-ad1c-49ee-8af1-514e4428ea9a" />
 
-![VIDI-X-Podmornice-2.png](VIDI-X-Podmornice-2.png)
-*Potpis: Zanimljivo je kako smo pored svih drugih podataka dobili i podatak o zdravlju naše podmornice. Grafika je inovativnija. Zanimljivo!*
+*Kod je prebogat komentarima koji će nam olakšati snalaženje u budućim iteracijama s kodom. Pohvalno!*
+
+
+<img width="1536" height="1024" alt="VIDI-X-Podmornice-2" src="https://github.com/user-attachments/assets/662e35cd-a51c-49f7-8dcd-3add2238ec14" />
+
+*Zanimljivo je kako smo pored svih drugih podataka dobili i podatak o zdravlju naše podmornice. Grafika je inovativnija. Zanimljivo!*
 
 ---
 
@@ -73,8 +80,9 @@ Kod je imao jednu grešku. Kod include mu je nedostajalo ime biblioteke te smo, 
 Kako izgleda HTML web stranica koju smo dobili, pogledajte na linku: 
 [Websim Claude prompt rezultat](https://websim.com/p/9x6_6208fqie04p1xvqk)
 
-![Igra-2.psd](Igra-2.psd)
-*Potpis: Ovaj kod ima potencijala za nastavak razvoja igre.*
+![Igra-2](https://github.com/user-attachments/assets/8d4880e9-93b8-4b5d-895f-51459d7058a7)
+
+*Ovaj kod ima potencijala za nastavak razvoja igre.*
 
 ---
 
@@ -92,8 +100,9 @@ učinila je kod ispravnim za pokretanje. No, uz manju grešku koja se manifestir
 
 Prompt i kod pogledajte na linku: [Prompt rezultat na X (Grok)](https://x.com/i/grok/share/I9Y31DP7bmQYZSI4DNTf3ctYw)
 
-![VIDI-X-Podmornice-3.png](VIDI-X-Podmornice-3.png)
-*Potpis: Ubrzo svi neprijatelji nestanu. Nije nas se dojmio kod!*
+<img width="1536" height="1024" alt="VIDI-X-Podmornice-3" src="https://github.com/user-attachments/assets/5b9e8e9a-585d-43ad-85de-395661d6e98e" />
+
+*Ubrzo svi neprijatelji nestanu. Nije nas se dojmio kod!*
 
 ---
 
@@ -104,8 +113,9 @@ Da biste ga koristili, Codex je potrebno povezati sa GitHub računom te mu dati 
 
 Prompt i kod pogledajte na linku repozitorija: [VIDI-X Submarine Codex](https://github.com/VidiLAB-com/VIDI-X-submarine)
 
-![Igra-1.psd](Igra-1.psd)
-*Potpis: Zanimljivo je natjerati podmornice da unište jedna drugu gađajući vas.*
+![Igra-1](https://github.com/user-attachments/assets/42aa4f14-b813-4496-bd12-59f82fa7230f)
+
+*Zanimljivo je natjerati podmornice da unište jedna drugu gađajući vas.*
 
 ---
 
@@ -115,8 +125,9 @@ Prompt i kod pogledajte na linku repozitorija: [VIDI-X Submarine Codex](https://
 U praksi, nismo dobili kompletan kod naše igre, nego nam je LLM javio kako je napravio osnovno kretanje podmornice, a za korištenje torpeda i kolizija da mu kažemo što želimo dalje, iako je sve potrebne informacije imao u prvom promptu. Pokretanjem tog malog koda uviđamo kako niti podmornica nije nacrtana na ekranu.
 Slično se dogodilo i sa besplatnom inačicom ChatGPT-a koja nema oznaku verzije pri korištenju. Kod koji smo dobili javljao je razne greške. Zaključujemo kako ChatGPT 4.5 nije baš pogodan za tehničku asistenciju programiranja, iako OpenAI svakih nekoliko tjedana radi fino podešavanje modela prema naputcima korisnika (oni palci gore i palci dolje kao oznaka dobrog i lošeg rezultata) te možemo očekivati poboljšanja u skorijoj budućnosti, ili dok ga ne zamijeni GPT-5.
 
-![ChatGPT 45.png](ChatGPT%2045.png)
-*Potpis: Imamo dojam kao da su starije verzije ChatGPT-a bolje pripremljene za kodiranje.*
+<img width="792" height="630" alt="ChatGPT 45" src="https://github.com/user-attachments/assets/ec9ab508-e3d3-489f-b983-41781214dfe5" />
+
+*Imamo dojam kao da su starije verzije ChatGPT-a bolje pripremljene za kodiranje.*
 
 ---
 
@@ -127,8 +138,9 @@ Korištenjem **ChatGPT 4.1** verzije dobili smo kod uz samo jedan dodatni klik n
 Verziju koju smo dobili od verzije 4.1 pogledajte na linku: 
  [ChatGPT 4.1 kod](https://chatgpt.com/share/686534ab-521c-8006-b978-653e9adb2d07)
 
-![Igra-3.psd](Igra-3.psd)
-*Potpis: Podmornice kao baloni nisu nas baš oduševile.*
+![Igra-3](https://github.com/user-attachments/assets/2bde996f-467b-470c-be71-e534150752c2)
+
+*Podmornice kao baloni nisu nas baš oduševile.*
 
 ---
 
@@ -147,8 +159,9 @@ Spajanjem smo dobili grafički lijepu igru čiji kod je dostupan na linku: [Chat
 
 Nedostatak je što je nemoguće preživjeti duže od par sekundi jer po vama pucaju svi istovremeno. Također nedostaju informacije o preostalom broju torpeda i broju neprijatelja. Nije radila niti detekcija kolizije između podmornica.
 
-![Igra-2.psd](Igra-2.psd)
-*Potpis: Dobar je za nastavak razvoja igre. Vide se sličnosti sa Claude Sonet 4 kodom.*
+![Igra-2](https://github.com/user-attachments/assets/975347fc-f4c3-4d9e-8696-93685d7082ae)
+
+*Dobar je za nastavak razvoja igre. Vide se sličnosti sa Claude Sonet 4 kodom.*
 
 ---
 
@@ -169,5 +182,6 @@ Boljka mu je da podmornice nestaju kada ispale torpedo jer algoritam misli da se
 
 te u tom dijelu možete potražiti rješavanje tog problema. Kad riješite taj, imat ćete neke druge dijelove koda za srediti. No svidjelo nam se kako su različiti događaji popraćeni različitim zvučnim efektima.
 
-![Igra-4.jpg](Igra-4.jpg)
-*Potpis: Torpedo ahead… all hands, brace for impact!*
+![Igra-4_web](https://github.com/user-attachments/assets/6c883bf4-af8b-473d-ad0f-3119dbb4be41)
+
+*Torpedo ahead… all hands, brace for impact!*
