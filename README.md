@@ -1,6 +1,7 @@
 # VIDI-X-AI-prompt
 
 Kompletan tekst AI promptanje za izradu igara na VIDI X mikroračunalu biti će dostupan na [Vidilab.com](https://vidilab.com) portalu.
+Univerzalni prompt koji je korisšten za izradu dolje navedenih kodova pročitajte u dokumentu na linku [Podmornice-Glavni-Prompt.md](https://github.com/VidiLAB-com/VIDI-X-AI-prompt/blob/main/Podmornice-Glavni-Prompt.md).
 
 # Gemini 2.5 Pro
 
